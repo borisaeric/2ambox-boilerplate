@@ -156,7 +156,7 @@ Note that ruby is installed thorugh RVM, so you can use it to easily install wha
 ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 ```
 
-## GIT
+## GIT info
 
 ### GIT 2.17
 `Version`
@@ -164,7 +164,7 @@ ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
 git version 2.17.1
 ```
 
-## COMPOSER
+## COMPOSER info
 
 ### COMPOSER 1.8
 `Version`
