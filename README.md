@@ -1,6 +1,38 @@
-# PHP 7.3
+# 2ambox-boilerplate
+
+Boilerplate code for setting up project around Vagrant with custom box `borisaeric/2ambox`.
+
+# Installation
+
+
+# Installed software info
+
+## UBUNTU info
+
+### UBUNTU 18.04
+`lsb_release -a`
+```
+Distributor ID:	Ubuntu
+Description:	Ubuntu 18.04.2 LTS
+Release:	18.04
+Codename:	bionic
+```
+
+## NGINX info
+
+### NGINX 1.14
 `Version`
+```
+nginx version: nginx/1.14.0 (Ubuntu)
+```
+
+## PHP info
+
+### PHP 7.3
+`Version`
+```
 PHP 7.3.7-1+ubuntu18.04.1+deb.sury.org+1 (cli) (built: Jul 10 2019 06:54:46) ( NTS )
+```
 
 `Installed extension`
 ```
@@ -13,9 +45,11 @@ php7.3-curl       php7.3-imap       php7.3-odbc       php7.3-snmp       php7.3-x
 php7.3-dba        php7.3-interbase  php7.3-opcache    php7.3-soap       php7.3-zip
 ```
 
-# PHP 7.2
+### PHP 7.2
 `Version`
+```
 PHP 7.2.20-1+ubuntu18.04.1+deb.sury.org+1 (cli) (built: Jul 10 2019 06:59:02) ( NTS )
+```
 
 `Installed extension`
 ```
@@ -28,9 +62,11 @@ php7.2-curl       php7.2-imap       php7.2-odbc       php7.2-snmp       php7.2-x
 php7.2-dba        php7.2-interbase  php7.2-opcache    php7.2-soap       php7.2-zip
 ```
 
-# PHP 7.1
+### PHP 7.1
 `Version`
+```
 PHP 7.1.30-1+ubuntu18.04.1+deb.sury.org+1 (cli) (built: May 31 2019 11:43:40) ( NTS )
+```
 
 `Installed extension`
 ```
@@ -44,9 +80,11 @@ php7.1-dba        php7.1-intl       php7.1-opcache    php7.1-sqlite3
 php7.1-dev        php7.1-json       php7.1-pgsql      php7.1-sybase
 ```
 
-# PHP 7.0
+### PHP 7.0
 `Version`
+```
 PHP 7.0.33-8+ubuntu18.04.1+deb.sury.org+1 (cli) (built: May 31 2019 11:34:35) ( NTS )
+```
 
 `Installed extension`
 ```
@@ -60,9 +98,11 @@ php7.0-dba        php7.0-intl       php7.0-pgsql      php7.0-sybase
 php7.0-dev        php7.0-json       php7.0-phpdbg     php7.0-tidy
 ```
 
-# PHP 5.6
+### PHP 5.6
 `Version`
+```
 PHP 5.6.40-8+ubuntu18.04.1+deb.sury.org+1 (cli)
+```
 
 `Installed extension`
 ```
@@ -74,4 +114,60 @@ php5.6-common     php5.6-imap       php5.6-odbc       php5.6-soap
 php5.6-curl       php5.6-interbase  php5.6-opcache    php5.6-sqlite3    
 php5.6-dba        php5.6-intl       php5.6-pgsql      php5.6-sybase     
 php5.6-dev        php5.6-json       php5.6-phpdbg     php5.6-tidy
+```
+
+## MYSQL info
+
+### MYSQL 5.7
+`Version`
+```
+Server version: 5.7.26-0ubuntu0.18.04.1 (Ubuntu)
+```
+
+`There are 2 users. Usernames are below and their password is blank.`
+```
+root
+vagrant
+```
+
+## NODE info
+
+Note that node is installed thorugh NVM, so you can use it to easily install whatever version you need.
+
+### NODE 12.6
+`Version`
+```
+v12.6.0
+```
+
+### NPM
+`Version`
+```
+6.10.1
+```
+
+## RUBY info
+
+Note that ruby is installed thorugh RVM, so you can use it to easily install whatever version you need.
+
+### RUBY 2.6
+`Version`
+```
+ruby 2.6.3p62 (2019-04-16 revision 67580) [x86_64-linux]
+```
+
+## GIT
+
+### GIT 2.17
+`Version`
+```
+git version 2.17.1
+```
+
+## COMPOSER
+
+### COMPOSER 1.8
+`Version`
+```
+Composer version 1.8.6 2019-06-11 15:03:05
 ```

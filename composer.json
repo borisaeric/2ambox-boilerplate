@@ -1,0 +1,16 @@
+{
+    "name": "borisaeric/2ambox-boilerplate",
+    "description": "Boilerplate for 2ambox (Vagrant custom base box)",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "borisaeric",
+            "email": "borisa123@hotmail.com",
+            "homepage": "https://borisaeric.io",
+            "role": "developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}
