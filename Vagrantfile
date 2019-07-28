@@ -35,9 +35,9 @@ Vagrant.configure("2") do |config|
 
   config.ssh.private_key_path = File.dirname(__FILE__) + "/2ambox/ssh/vagrant_private_key"
 
-  config.vm.provision "shell", path: "2ambox/provision.sh"
-  config.vm.provision "shell", path: "2ambox/configure-nginx.sh", run: "always", privileged: true
-  config.vm.provision "shell", path: "2ambox/configure-default-php.sh", run: "always", privileged: true
+  config.vm.provision "shell", path: "2ambox/01----provision.sh"
+  config.vm.provision "shell", path: "2ambox/02----configure-nginx.sh", run: "always", privileged: true
+  config.vm.provision "shell", path: "2ambox/03----configure-default-php.sh", run: "always", privileged: true
 
   config.vm.provision "shell", path: "2ambox/php/configure-php-5.6.sh", run: "always", privileged: true
   config.vm.provision "shell", path: "2ambox/php/configure-php-7.0.sh", run: "always", privileged: true
@@ -45,13 +45,13 @@ Vagrant.configure("2") do |config|
   config.vm.provision "shell", path: "2ambox/php/configure-php-7.2.sh", run: "always", privileged: true
   config.vm.provision "shell", path: "2ambox/php/configure-php-7.3.sh", run: "always", privileged: true
 
-  config.vm.provision "shell", path: "2ambox/configure-motd.sh", run: "always", privileged: true
-  config.vm.provision "shell", path: "2ambox/configure-mailcatcher.sh", run: "always", privileged: true
-  config.vm.provision "shell", path: "2ambox/configure-symlinks.sh", run: "always", privileged: true
-  config.vm.provision "shell", path: "2ambox/configure-mysql.sh", run: "always", privileged: true
+  config.vm.provision "shell", path: "2ambox/04----configure-motd.sh", run: "always", privileged: true
+  config.vm.provision "shell", path: "2ambox/05----configure-mailcatcher.sh", run: "always", privileged: true
+  config.vm.provision "shell", path: "2ambox/06----configure-symlinks.sh", run: "always", privileged: true
+  config.vm.provision "shell", path: "2ambox/07----configure-mysql.sh", run: "always", privileged: true
 
-  config.vm.provision "shell", path: "2ambox/configure-node.sh", run: "always", privileged: false
-  config.vm.provision "shell", path: "2ambox/configure-composer.sh", run: "always", privileged: false
+  config.vm.provision "shell", path: "2ambox/08----configure-node.sh", run: "always", privileged: false
+  config.vm.provision "shell", path: "2ambox/09----configure-composer.sh", run: "always", privileged: false
 
   config.vm.provision "shell", run: "always", privileged: false, inline: <<-EOF
   echo "Your vagrant machine is loaded at hosts config: #{$vagrantBoxIp} #{$vagrantHosts}"
