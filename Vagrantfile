@@ -57,5 +57,6 @@ Vagrant.configure("2") do |config|
   echo "Your vagrant machine is loaded at hosts config: #{$vagrantBoxIp} #{$vagrantHosts}"
   echo "Please add this configuration in your hosts file located on /etc/hosts on Linux od Windows/System32/drivers/etc/hosts on Windows."
   echo "Mailcatcher is available at http://localhost:1080."
+  echo "More details about box are available at https://github.com/borisaeric/2ambox-boilerplate."
 EOF
 end
